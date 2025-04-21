@@ -5,69 +5,75 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Velanor Capital</title>
+  <link rel="stylesheet" href="styles.css" />
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background-color: #0d0d0d;
       color: white;
-      line-height: 1.6;
-    }
-    header, section {
-      padding: 60px 20px;
-      max-width: 1000px;
-      margin: auto;
     }
     header {
       display: flex;
       align-items: center;
+      justify-content: center;
       gap: 40px;
+      padding: 60px 20px;
+      background-color: #0d0d0d;
     }
     header img {
-      width: 180px;
-      height: auto;
+      height: 180px;
+      width: auto;
+      border-radius: 8px;
     }
-    .description {
-      flex: 1;
+    .header-text {
+      max-width: 600px;
     }
-    .description h1 {
-      color: #d4af37;
-      font-size: 2.8rem;
+    .header-text h1 {
       margin: 0 0 10px 0;
+      font-size: 48px;
+      color: #d4af37;
     }
-    .description p {
-      margin: 0;
+    .header-text h3 {
+      margin: 0 0 10px 0;
+      font-size: 20px;
+      color: white;
     }
-    .description em {
-      font-style: italic;
+    .header-text em {
       color: #ccc;
     }
     nav {
-      background-color: #1a1a1a;
+      background: #111;
       text-align: center;
     }
     nav a {
       color: #d4af37;
       text-decoration: none;
-      margin: 0 15px;
+      padding: 14px 20px;
+      display: inline-block;
       font-weight: bold;
     }
     nav a:hover {
-      text-decoration: underline;
+      background-color: #222;
+    }
+    section {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
     }
     section h2 {
       color: #d4af37;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
   </style>
 </head>
 <body>
 
   <header>
-    <img src="logo_vc_gold.png" alt="Velanor Capital Logo">
-    <div class="description">
+    <img src="logo.png" alt="Velanor Capital Logo" />
+    <div class="header-text">
       <h1>Velanor Capital</h1>
-      <p>Strategic Real Estate Investments in Russia</p>
+      <h3>Strategic Real Estate Investments in Russia</h3>
       <p><em>Quiet growth. Strong foundations.</em></p>
     </div>
   </header>
