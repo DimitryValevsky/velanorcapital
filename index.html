@@ -10,150 +10,44 @@
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background-color: #0d0d0d;
-      color: #fff;
-      line-height: 1.6;
+      color: #ffffff;
     }
-
-    header, section {
-      padding: 60px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-
-    header {
-      text-align: center;
-    }
-
-    header img {
-      width: 200px;
-      margin-bottom: 20px;
-    }
-
-    h1 {
-      color: #d4af37;
-      font-size: 2.8em;
-      margin-bottom: 0.2em;
-    }
-
-    h2 {
-      color: #d4af37;
-      font-size: 2em;
-      margin-top: 60px;
-    }
-
-    p {
-      color: #fff;
-      font-size: 1.1em;
-      max-width: 800px;
-      text-align: left;
-      margin: 0 auto;
-    }
-
-    em {
-      color: #ccc;
-      display: block;
-      margin-top: 10px;
-      font-style: italic;
-    }
-
-    nav {
-      background-color: #1a1a1a;
-      padding: 15px;
+    .container {
       display: flex;
+      align-items: center;
       justify-content: center;
-      gap: 40px;
-      position: sticky;
-      top: 0;
+      padding: 60px 20px;
     }
-
-    nav a {
+    .logo {
+      max-width: 200px;
+      margin-right: 40px;
+    }
+    .text-block {
+      max-width: 600px;
+    }
+    .text-block h1 {
+      font-size: 2.5rem;
       color: #d4af37;
-      text-decoration: none;
-      font-weight: bold;
-      transition: color 0.3s ease;
-    }
-
-    nav a:hover {
-      color: #fff;
-    }
-
-    section p {
-      color: #fff;
-      text-align: left;
-    }
-
-    .section-title {
-      color: #d4af37;
-      text-align: left;
-      margin-bottom: 10px;
-    }
-
-    .team h3 {
       margin: 0;
-      color: #fff;
     }
-
-    .team p {
-      margin-top: 5px;
+    .text-block p {
+      font-size: 1.1rem;
+      margin: 10px 0;
+      color: #ffffff;
     }
-
-    footer {
-      text-align: center;
-      color: #999;
-      padding: 40px;
-      font-size: 0.9em;
+    .text-block em {
+      color: #bbbbbb;
     }
   </style>
 </head>
 <body>
-
-<header>
-  <img src="logo.png" alt="Velanor Capital Logo" />
-  <h1>Velanor Capital</h1>
-  <p>Strategic Real Estate Investments in Russia</p>
-  <em>Quiet growth. Strong foundations.</em>
-</header>
-
-<nav>
-  <a href="#approach">Our Approach</a>
-  <a href="#focus">Investment Focus</a>
-  <a href="#projects">Sample Projects</a>
-  <a href="#team">Team</a>
-  <a href="#contact">Contact</a>
-</nav>
-
-<section id="approach">
-  <h2 class="section-title">Our Approach</h2>
-  <p>We identify undervalued urban assets and unlock their potential through decisive, locally-informed interventions. Our focus is on resilient yields and long-term capital preservation.</p>
-</section>
-
-<section id="focus">
-  <h2 class="section-title">Investment Focus</h2>
-  <p>Velanor Capital invests in high-impact, low-visibility urban assets with a clear path to value creation and capital safety.</p>
-</section>
-
-<section id="projects">
-  <h2 class="section-title">Sample Projects</h2>
-  <p>Recent deals include multi-family aggregations, distressed commercial repositionings, and hybrid-use redevelopment in Moscow and select secondary cities.</p>
-</section>
-
-<section id="team" class="team">
-  <h2 class="section-title">Team</h2>
-  <h3>Dmitry Valevsky</h3>
-  <p>Founder & Managing Partner</p>
-  <p>Based in Moscow, Dmitry is a capital strategist and private operator with over a decade of hands-on experience in cross-border transactions and asset protection. The firm operates with a tight, trusted network of legal, tax, and field specialists.</p>
-</section>
-
-<section id="contact">
-  <h2 class="section-title">Contact</h2>
-  <p>If you’re an investor, operator, or simply curious, we’d like to hear from you.</p>
-  <p>Email: <a href="mailto:info.velar@proton.me" style="color:#d4af37;">info.velar@proton.me</a></p>
-  <p>Telegram: <em>(coming soon)</em></p>
-</section>
-
-<footer>
-  &copy; 2025 Velanor Capital. All rights reserved.
-</footer>
-
+  <div class="container">
+    <img src="logo.png" alt="Velanor Capital Logo" class="logo"/>
+    <div class="text-block">
+      <h1>Velanor Capital</h1>
+      <p>Strategic Real Estate Investments in Russia</p>
+      <p><em>Quiet growth. Strong foundations.</em></p>
+    </div>
+  </div>
 </body>
 </html>
